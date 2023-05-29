@@ -1,0 +1,45 @@
+.product-card {
+    
+    margin-bottom: 25px;
+    margin-right: 25px;
+    max-width: 250px;
+}
+
+.product-image {
+    width: 250px;
+    height: 250px;
+}
+
+.description {
+    background-color: white;
+    border: 0.5px solid lightgray;
+    padding: 5px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.price-quantity {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+
+button {
+    padding: 0;
+    background-color: white;
+    color: #02C385; 
+    border: 1px solid #02C385;
+    margin: 5px !important;
+    height: 25px !important;
+}
+
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+    text-align: right;
+    padding-right: 3px;
+}

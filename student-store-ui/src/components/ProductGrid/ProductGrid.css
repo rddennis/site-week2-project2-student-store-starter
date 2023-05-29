@@ -1,0 +1,9 @@
+.product-grid .content {
+    padding: 0 !important;
+}
+
+.product-grid .content .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
